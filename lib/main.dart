@@ -5,6 +5,7 @@ import 'package:flutter/widgets.dart';
 import 'package:notepad_application/Notesbuttons.dart';
 import 'package:notepad_application/model/note.dart';
 import 'package:notepad_application/notesfile.dart';
+// import 'package:notepad_application/splash.dart';
 
 
 void main() {
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MyHomePage(title: 'No...',),
+      home: const MyHomePage(title: 'Memo Rise',),
+      // home: const Splash(),
     );
   }
 }
